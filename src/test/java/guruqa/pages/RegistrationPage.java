@@ -1,7 +1,7 @@
-package guru.qa.pages;
+package guruqa.pages;
 
 import com.codeborne.selenide.SelenideElement;
-import guru.qa.pages.components.CalendarComponent;
+import guruqa.pages.components.CalendarComponent;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;

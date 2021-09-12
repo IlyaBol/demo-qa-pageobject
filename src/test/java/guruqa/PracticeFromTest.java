@@ -1,16 +1,8 @@
-package guru.qa;
+package guruqa;
 
-import com.codeborne.selenide.Configuration;
 import com.github.javafaker.Faker;
-import guru.qa.pages.RegistrationPage;
-import org.junit.jupiter.api.BeforeAll;
+import guruqa.pages.RegistrationPage;
 import org.junit.jupiter.api.Test;
-
-import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.Selenide.$x;
-import static guru.qa.TestData.*;
 
 public class PracticeFromTest extends TestBase {
     Faker faker = new Faker();
